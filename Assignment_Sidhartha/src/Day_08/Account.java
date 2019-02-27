@@ -51,10 +51,5 @@ return "Account [accountNo=" + accountNo + ","
 		+ "accountHolderName=" + accountHolderName + ", accountBalance="
 				+ accountBalance + "]";
 	}
-	public double withdraw(int Amount) 
-	{
-		// TODO Auto-generated method stub
-		return 0;
-	}
 	
 }

@@ -18,16 +18,18 @@ protected static double overDraftLimit =500;
 
 		if(accountBalance >= amount){
 			accountBalance = accountBalance - amount;
-			System.out.println("WithDrawl Sucess With The OVerDreaftLimit "
-					+ "The New Balave Is"
-					+ accountBalance);
+			System.out.println("Successful Withdrawal with overdraft limit, now "
+				+" account balance is: " + accountBalance);
 		} else {
 			System.out.println("NOt Possible");
+			System.out.println("withdrawal not possible " 
+					+ " overdraft limit exceeded, now account balance:" + accountBalance);
 			success = false;
 			
 		}
 
 		return success;
 	}
+	
 
 	}

@@ -9,8 +9,8 @@ public class AccountClint {
 		Account ac= new CurrentAccount(a, 4000);
 		
 		try {
-			as.withdraw(2000);
-			ac.withdraw(1000);
+			as.withdraw(10000);
+			ac.withdraw(10000);
 		} catch (Exception e) {
 			System.out.println("Due TO LOw Balance Transaction Not Possible");
 		}
