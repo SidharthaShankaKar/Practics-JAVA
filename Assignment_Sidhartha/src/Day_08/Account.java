@@ -29,7 +29,7 @@ public Account(AccountHolder accountHolderName, double accountBalance) {
 		accountBalance=accountBalance+Amount;
 System.out.println("New Balance After Deposite Will be " + accountBalance);
 	}
-	public abstract boolean withdraw(double amount);
+	public abstract boolean withdraw(double amount) throws LowBalanceecception;
 	public long getAccountNo() {
 		return accountNo;
 	}
