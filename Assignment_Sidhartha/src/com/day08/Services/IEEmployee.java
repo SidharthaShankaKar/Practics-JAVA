@@ -1,8 +1,8 @@
-package Services;
+package com.day08.Services;
 
 import java.util.Date;
 
-import Day_08_02.Employee;
+import com.employee.Day_08.Employee;
 
 public interface IEEmployee 
 {

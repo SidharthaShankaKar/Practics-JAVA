@@ -1,4 +1,4 @@
-package Day_08_02;
+package com.Day10;
 
 import java.util.Date;
 /**
@@ -48,6 +48,12 @@ public class Employee
 	}
 	public void setDoj(Date doj) {
 		this.doj = doj;
+	}
+	@Override
+	public String toString() {
+		return "Employee [empName=" + empName + ", empId=" + 
+	empId + ", empSal=" + empSal + "," + " empDesignation="
+				+ empDesignation + ", doj=" + doj + "]";
 	}
 	
 	

@@ -1,13 +1,11 @@
-package com.Emp.clint;
+package com.Emp.clint.Day08;
 
-import java.awt.DisplayMode;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import Day_08_02.Employee;
-import Services.EmployeeServiceIEmply;
+import com.day08.Services.EmployeeServiceIEmply;
+import com.employee.Day_08.Employee;
 
 public class EmployeeClint 
 {
